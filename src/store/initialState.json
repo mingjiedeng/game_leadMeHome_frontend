@@ -1,0 +1,30 @@
+{
+  "user": {
+    "name": ""
+  },
+  "scores": [{ "level": 1, "saved": 1, "seconds": 180, "star": 1 }],
+  "topLists": [
+    {
+      "level": 1,
+      "scores": [
+        { "name": "Jason", "saved": 10, "seconds": 12 },
+        { "name": "Bob", "saved": 10, "seconds": 14 }
+      ]
+    },
+    {
+      "level": 2,
+      "scores": [
+        { "name": "Ryan", "saved": 10, "seconds": 16 },
+        { "name": "Fred", "saved": 10, "seconds": 17 }
+      ]
+    }
+  ],
+
+  "levelsAmount": 10,
+
+  "gameStats": {
+    "level": 1,
+    "saved": 10,
+    "seconds": 0
+  }
+}

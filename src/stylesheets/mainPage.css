@@ -1,0 +1,48 @@
+.main {
+  display: grid;
+  grid-template-columns: auto 330px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.header {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 250%;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.levelSelector {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.tile {
+  background-color: rgb(22, 43, 70);
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 200%;
+}
+
+.panel {
+  width: 100%;
+}
+
+.star {
+  display: inline;
+  width: 33px;
+  height: auto;
+}
+
+.locker {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: auto;
+}
